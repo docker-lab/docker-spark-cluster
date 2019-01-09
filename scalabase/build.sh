@@ -1,1 +1,1 @@
-docker build . -t scalabase
+docker build --build-arg http_proxy=http://172.17.18.84:8080 --build-arg https_proxy=http://172.17.18.84:8080 --build-arg no_proxy=dockeropen.paas.x,dockerproxy.paas.x,dockerg.paas.x,dockergroup.paas.x . -t scalabase

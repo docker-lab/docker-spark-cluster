@@ -1,2 +1,2 @@
-hadoop/deps/*
-/hadoop/config/id_rsa*
+spark/deps/*
+/spark/config/id_rsa*

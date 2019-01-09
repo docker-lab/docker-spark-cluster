@@ -4,6 +4,7 @@ USER root
 
 RUN apt-get update
 RUN apt-get install -y --no-install-recommends openssh-server vim
+RUN ln -s /usr/bin/java /bin/java
 
 WORKDIR /tmp
 RUN wget https://downloads.lightbend.com/scala/2.12.5/scala-2.12.5.tgz
